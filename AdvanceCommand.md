@@ -30,9 +30,9 @@ Push everything from `test` → `main`, except:
 
 ### 4️⃣ Bring all changes from test into your temp branch
 
-- `git checkout test -- .`
+- `git checkout test -- .` - [Enter Branch Name]
 - OR
-- `git merge dev`
+- `git merge dev` - [Enter Branch Name]
 
 - This command copies all files that exist in test into your working directory.
 

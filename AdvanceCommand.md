@@ -31,6 +31,8 @@ Push everything from `test` → `main`, except:
 ### 4️⃣ Bring all changes from test into your temp branch
 
 - `git checkout test -- .`
+  OR
+- `git merge dev`
 
 - This command copies all files that exist in test into your working directory.
 
@@ -87,3 +89,10 @@ Your diff will show all test changes except those 2 files.
 - `git pull origin main`
 - `git branch -d selective/test-to-main`
 - `git push origin --delete selective/test-to-main`
+
+🔥 Abort the broken merge
+- `git merge --abort`
+
+🔥 Discard all local changes in dev-to-test
+- `git reset --hard`
+- `git clean -fd`
